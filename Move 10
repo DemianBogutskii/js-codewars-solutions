@@ -1,0 +1,10 @@
+#https://www.codewars.com/kata/57cf50a7eca2603de0000090/train/javascript
+
+function moveTen(st){
+    let a = "abcdefghijklmnopqrstuvwxyzabcdefghij"
+    let s = ""
+    for (let el of st){
+        s += a[a.indexOf(el) + 10]
+    }
+    return s
+}
