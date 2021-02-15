@@ -1,0 +1,9 @@
+#https://www.codewars.com/kata/5f7b1a82be51af00105c82bd/train/javascript
+
+function divBy9(ns){
+  let n = 0
+  for (let i=0; i < ns.length; i++){
+    n += +ns[i]
+  }
+  return +n % 9 == 0
+}
